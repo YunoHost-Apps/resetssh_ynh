@@ -1,0 +1,33 @@
+{
+    "name": "Reset SSH config",
+    "id": "resetssh",
+    "packaging_format": 1,
+    "description": {
+        "en": "Allow you to reset your SSH access via webadmin in case you broke it.",
+    },
+    "version": "1.0~ynh1",
+    "url": "https://example.com",
+    "upstream": {
+        "license": "free",
+        "website": "https://example.com",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://some.forge.com/example/example"
+    },
+    "license": "AGPL-3",
+    "maintainer": {
+        "name": "ljf",
+        "email": "ljf@reflexlibre.net"
+    },
+    "requirements": {
+        "yunohost": ">= 4.1.3"
+    },
+    "multi_instance": false,
+    "services": [
+    ],
+    "arguments": {
+        "install" : [
+        ]
+    }
+}

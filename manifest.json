@@ -3,7 +3,7 @@
     "id": "resetssh",
     "packaging_format": 1,
     "description": {
-        "en": "Allow you to reset your SSH access via webadmin in case you broke it.",
+        "en": "Allow you to reset your SSH access via webadmin in case you broke it."
     },
     "version": "1.0~ynh1",
     "url": "https://example.com",

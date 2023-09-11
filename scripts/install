@@ -1,4 +1,6 @@
 #!/bin/bash
 
+
 yunohost settings set security.ssh.port -v 22
+yunohost tools regen-conf ssh --dry-run --with-diff
 yunohost tools regen-conf ssh --force
